@@ -1,107 +1,121 @@
-/* Estilos Gerais */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.intro {
+    display: flex;
+    padding: 20px;
+    background-color: #e0e0e0;
+    align-items: center;
+}
+
+.intro-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro-text button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.modules {
+    padding: 20px;
+}
+
+.modules h2 {
+    margin-bottom: 15px;
     color: #333;
 }
 
-h1, h2, h3 {
-    color: #4CAF50;
+.module-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.section {
-    padding: 60px 20px;
+.module {
+    flex: 1 1 22%;
     text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.bg-light {
-    background-color: #E5DED1;
-}
-
-.bg-dark {
-    background-color: #333;
-    color: white;
-}
-
-a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #388E3C;
-}
-
-/* Estilo para Botões */
-.button {
-    display: inline-block;
-    padding: 15px 30px;
-    color: #fff;
-    background-color: #4CAF50;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: #388E3C;
-}
-
-/* Estilo para Imagens e Vídeos */
-img, video {
+.module img {
     max-width: 100%;
-    height: auto;
-    margin: 20px 0;
     border-radius: 8px;
 }
 
-/* Estilo Específico para a Header */
-.header {
-    background-color: #E5DED1;
-    padding: 80px 20px;
+.testimonials {
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.header h1 {
-    font-size: 2.5em;
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.header p {
-    font-size: 1.2em;
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
-/* Estilo para Listas de Itens */
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-size: 1.1em;
-    line-height: 1.6;
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 
-ul li::before {
-    content: "• ";
-    color: #4CAF50;
-    font-weight: bold;
+.video-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
 }
 
-/* Footer */
-.section.bg-dark p {
-    color: #ccc;
-}
-
-.section.bg-dark a {
-    color: #ffffff;
-}
-
-.section.bg-dark a:hover {
-    color: #ddd;
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
