@@ -93,29 +93,6 @@ ul li::before {
     font-weight: bold;
 }
 
-/* Estilo para Módulos */
-.modules {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.module {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.module img {
-    border-radius: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
 /* Footer */
 .section.bg-dark p {
     color: #ccc;
